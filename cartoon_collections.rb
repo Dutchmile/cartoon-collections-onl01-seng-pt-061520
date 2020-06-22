@@ -28,11 +28,12 @@ end
 
 def find_the_cheese(chedder_cheese)
       x = 0
+      cheese_types = ["cheddar", "gouda", "camembert"]
       while x < chedder_cheese.length
         if cheese_types.include? chedder_cheese[x]
         return chedder_cheese[x]
       end
       x = x + 1
     end
-  cheese_types = ["cheddar", "gouda", "camembert"]
+
 end
